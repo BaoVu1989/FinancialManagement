@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1057752619466-bn79t01avnkbr9fhi20a8j0uqbveg72r.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1057752619466-bn79t01avnkbr9fhi20a8j0uqbveg72r</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDnMtd6IjbUggIjAxRnramsjunk8_l_3Dg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1057752619466</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.BaoVu-Apps.Financial-Individual</string>
+	<key>PROJECT_ID</key>
+	<string>financial-individual</string>
+	<key>STORAGE_BUCKET</key>
+	<string>financial-individual.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1057752619466:ios:18512a2f2259cb21b8d733</string>
+	<key>DATABASE_URL</key>
+	<string>https://financial-individual.firebaseio.com</string>
+</dict>
+</plist>

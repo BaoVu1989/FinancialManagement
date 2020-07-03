@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  FinancialManagement
+//  Financial Individual
 //
-//  Created by Bao Vu on 7/3/20.
+//  Created by Bao Vu on 3/29/20.
 //  Copyright © 2020 Bao Vu. All rights reserved.
 //
 

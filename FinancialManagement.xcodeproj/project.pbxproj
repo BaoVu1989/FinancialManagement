@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F251F2E924AEE78700BE7B98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F251F2E824AEE78700BE7B98 /* AppDelegate.swift */; };
-		F251F2EB24AEE78700BE7B98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F251F2EA24AEE78700BE7B98 /* SceneDelegate.swift */; };
-		F251F2ED24AEE78700BE7B98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F251F2EC24AEE78700BE7B98 /* ViewController.swift */; };
 		F251F2F024AEE78700BE7B98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F251F2EE24AEE78700BE7B98 /* Main.storyboard */; };
 		F251F2F324AEE78700BE7B98 /* FinancialManagement.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F251F2F124AEE78700BE7B98 /* FinancialManagement.xcdatamodeld */; };
-		F251F2F524AEE78800BE7B98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F251F2F424AEE78800BE7B98 /* Assets.xcassets */; };
 		F251F2F824AEE78800BE7B98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F251F2F624AEE78800BE7B98 /* LaunchScreen.storyboard */; };
+		F251F30124AEE7E700BE7B98 /* Financial_Individual.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F251F2FF24AEE7E700BE7B98 /* Financial_Individual.xcdatamodeld */; };
+		F251F30324AEE7F700BE7B98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F251F30224AEE7F700BE7B98 /* Assets.xcassets */; };
+		F251F30524AEE80600BE7B98 /* LoginViewControllers in Resources */ = {isa = PBXBuildFile; fileRef = F251F30424AEE80600BE7B98 /* LoginViewControllers */; };
+		F251F30724AEE82800BE7B98 /* MainViewControllers in Resources */ = {isa = PBXBuildFile; fileRef = F251F30624AEE82800BE7B98 /* MainViewControllers */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F251F2E524AEE78700BE7B98 /* FinancialManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinancialManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F251F2E824AEE78700BE7B98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F251F2EA24AEE78700BE7B98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F251F2EC24AEE78700BE7B98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F251F2EF24AEE78700BE7B98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F251F2F224AEE78700BE7B98 /* FinancialManagement.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FinancialManagement.xcdatamodel; sourceTree = "<group>"; };
-		F251F2F424AEE78800BE7B98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F251F2F724AEE78800BE7B98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F251F2F924AEE78800BE7B98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F251F30024AEE7E700BE7B98 /* Financial_Individual.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Financial_Individual.xcdatamodel; sourceTree = "<group>"; };
+		F251F30224AEE7F700BE7B98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../UIkit/Financial Individual/Financial Individual/Assets.xcassets"; sourceTree = "<group>"; };
+		F251F30424AEE80600BE7B98 /* LoginViewControllers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = LoginViewControllers; sourceTree = "<group>"; };
+		F251F30624AEE82800BE7B98 /* MainViewControllers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = MainViewControllers; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +44,7 @@
 			children = (
 				F251F2E724AEE78700BE7B98 /* FinancialManagement */,
 				F251F2E624AEE78700BE7B98 /* Products */,
+				F251F2FF24AEE7E700BE7B98 /* Financial_Individual.xcdatamodeld */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +59,10 @@
 		F251F2E724AEE78700BE7B98 /* FinancialManagement */ = {
 			isa = PBXGroup;
 			children = (
-				F251F2E824AEE78700BE7B98 /* AppDelegate.swift */,
-				F251F2EA24AEE78700BE7B98 /* SceneDelegate.swift */,
-				F251F2EC24AEE78700BE7B98 /* ViewController.swift */,
+				F251F30624AEE82800BE7B98 /* MainViewControllers */,
+				F251F30424AEE80600BE7B98 /* LoginViewControllers */,
 				F251F2EE24AEE78700BE7B98 /* Main.storyboard */,
-				F251F2F424AEE78800BE7B98 /* Assets.xcassets */,
+				F251F30224AEE7F700BE7B98 /* Assets.xcassets */,
 				F251F2F624AEE78800BE7B98 /* LaunchScreen.storyboard */,
 				F251F2F924AEE78800BE7B98 /* Info.plist */,
 				F251F2F124AEE78700BE7B98 /* FinancialManagement.xcdatamodeld */,
@@ -129,8 +129,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F251F2F824AEE78800BE7B98 /* LaunchScreen.storyboard in Resources */,
-				F251F2F524AEE78800BE7B98 /* Assets.xcassets in Resources */,
+				F251F30324AEE7F700BE7B98 /* Assets.xcassets in Resources */,
 				F251F2F024AEE78700BE7B98 /* Main.storyboard in Resources */,
+				F251F30724AEE82800BE7B98 /* MainViewControllers in Resources */,
+				F251F30524AEE80600BE7B98 /* LoginViewControllers in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,9 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F251F2F324AEE78700BE7B98 /* FinancialManagement.xcdatamodeld in Sources */,
-				F251F2ED24AEE78700BE7B98 /* ViewController.swift in Sources */,
-				F251F2E924AEE78700BE7B98 /* AppDelegate.swift in Sources */,
-				F251F2EB24AEE78700BE7B98 /* SceneDelegate.swift in Sources */,
+				F251F30124AEE7E700BE7B98 /* Financial_Individual.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +351,16 @@
 			);
 			currentVersion = F251F2F224AEE78700BE7B98 /* FinancialManagement.xcdatamodel */;
 			path = FinancialManagement.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		F251F2FF24AEE7E700BE7B98 /* Financial_Individual.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F251F30024AEE7E700BE7B98 /* Financial_Individual.xcdatamodel */,
+			);
+			currentVersion = F251F30024AEE7E700BE7B98 /* Financial_Individual.xcdatamodel */;
+			path = Financial_Individual.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
